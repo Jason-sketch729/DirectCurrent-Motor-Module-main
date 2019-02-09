@@ -1,0 +1,10 @@
+cc_library(
+    name = "DirectCurrent_Motor_Module",
+    srcs = [
+        "src/DirectCurrent_Motor_Module.h"
+    ],
+    includes = [
+        "src",
+    ],
+    visibility = ["//visibility:public"],
+)
